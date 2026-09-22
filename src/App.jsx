@@ -1,4 +1,5 @@
 import { profile, skills, projects, experience } from "./data";
+import profilePhoto from "./assets/profile-photo.jpg";
 
 function ArrowUpRight() {
   return (
@@ -63,6 +64,30 @@ function MiniChart() {
         <span>JUL</span>
         <span>SET</span>
         <span>NOV</span>
+      </div>
+    </div>
+  );
+}
+
+
+function ProfileCard() {
+  return (
+    <div className="profile-card">
+      <img
+        src={profilePhoto}
+        alt="Foto de Ítalo Silva"
+        className="profile-photo"
+      />
+
+      <div className="profile-card-footer">
+        <div>
+          <span className="chart-label">PERFIL</span>
+          <strong>Ítalo Silva</strong>
+        </div>
+        <p>
+          Portfólio com foco em análise de dados, visualização e soluções
+          orientadas por informação.
+        </p>
       </div>
     </div>
   );
@@ -147,7 +172,7 @@ function App() {
 
             <div className="hero-visual">
               <div className="visual-badge">DATA / 2026</div>
-              <MiniChart />
+              <ProfileCard />
               <div className="metric-grid">
                 <div className="metric-card">
                   <span>STACK</span>

@@ -7,7 +7,7 @@ export const profile = {
   availability: "Aberto a oportunidades em Dados",
   linkedin: "https://www.linkedin.com/in/italo-silvaa/",
   github: "https://github.com/ItaloSSilva",
-  email: "souzasilvaitalo41@gmail.com",
+  email: "mailto:souzasilvaitalo41@gmail.com",
 };
 
 export const skills = [

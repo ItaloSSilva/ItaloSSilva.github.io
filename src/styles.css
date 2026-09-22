@@ -254,6 +254,42 @@ p {
   position: relative;
 }
 
+.profile-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.profile-photo {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 22%;
+}
+
+.profile-card-footer {
+  display: grid;
+  gap: 10px;
+  padding: 22px;
+  border-top: 1px solid var(--line);
+}
+
+.profile-card-footer strong {
+  display: block;
+  margin-top: 8px;
+  font-size: 28px;
+  letter-spacing: -0.05em;
+  font-weight: 500;
+}
+
+.profile-card-footer p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+  font-size: 13px;
+}
+
 .visual-badge {
   position: absolute;
   top: -18px;
