@@ -308,10 +308,7 @@ function App() {
               ))}
             </div>
 
-            <p className="projects-footnote">
-              Dica: substitua os links gerais do GitHub pelos repositórios específicos
-              de cada projeto conforme você for publicando seus cases.
-            </p>
+
           </div>
         </section>
 

@@ -32,12 +32,12 @@ export const skills = [
 export const projects = [
   {
     number: "01",
-    title: "Análise e Modelagem de Banco de Dados",
+    title: "Análise da Crise de Bots no Team Fortress 2",
     description:
-      "Projeto com modelagem relacional, normalização e consultas SQL para exploração de dados, agregações e geração de informações de negócio.",
-    tags: ["SQL", "MySQL", "Modelagem", "Análise"],
+      "Projeto prático de Data Analytics sobre o impacto estrutural da crise de contas automatizadas (bots) na base de jogadores do Team Fortress 2. A análise buscou mensurar a proporção dessa anomalia e investigar a correlação entre campanhas online de feedback da comunidade e ações de banimento da desenvolvedora.",
+    tags: ["SQL", "Python", "Pandas", "Matplotlib", "Análise"],
     status: "Projeto acadêmico",
-    link: "https://github.com/ItaloSSilva",
+    link: "https://github.com/ItaloSSilva/tf2-time-series-analysis",
   },
   {
     number: "02",
@@ -55,7 +55,7 @@ export const projects = [
       "Aplicação full stack com operações CRUD e persistência de dados. Projeto útil para demonstrar integração entre aplicação, regras de negócio e banco de dados.",
     tags: ["Node.js", "Prisma", "React", "Banco de Dados"],
     status: "Projeto de software",
-    link: "https://github.com/ItaloSSilva",
+    link: "https://github.com/ItaloSSilva/cadastro-de-usuarios",
   },
   {
     number: "04",
@@ -64,7 +64,7 @@ export const projects = [
       "Automação de atendimento com controle de estados, regras por horário, coleta de sugestões e diferentes fluxos de interação.",
     tags: ["JavaScript", "Node.js", "Automação", "Regras"],
     status: "Projeto aplicado",
-    link: "https://github.com/ItaloSSilva",
+    link: "https://github.com/linkjr-castanhal/chatbot-whatsapp",
   },
 ];
 
